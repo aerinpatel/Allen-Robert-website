@@ -162,7 +162,7 @@ import { HashLink } from "react-router-hash-link";
 // };
 
 const VideoCard = ({ title, views, time, vimeoId }) => {
-  const [isPlaying, setIsPlaying] = useState(false);
+  const [isPlaying, setIsPlaying] = useState(true);
 
   // Background mode: Autoplay, Muted, Loop, No controls
   const previewUrl = `https://player.vimeo.com/video/${vimeoId}?background=1&autoplay=1&loop=1&byline=0&title=0`;
@@ -246,7 +246,7 @@ const StoryVideoPlayer = () => {
       className="relative aspect-video w-full rounded-xl overflow-hidden shadow-2xl bg-black cursor-pointer group border border-white/10"
       onClick={() => setIsPlaying(true)}
     >
-      
+
       <iframe
         src={isPlaying ? activeUrl : previewUrl}
         className="w-full h-full object-cover"
