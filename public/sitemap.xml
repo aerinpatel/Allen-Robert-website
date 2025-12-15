@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Home Page -->
+  <url>
+    <loc>https://allen-robert-portfolio-iuki.vercel.app/</loc>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Journey Page -->
+  <url>
+    <loc>https://allen-robert-portfolio-iuki.vercel.app/Journey</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- NGO Page -->
+  <url>
+    <loc>https://allen-robert-portfolio-iuki.vercel.app/NGO</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Blogs Page -->
+  <url>
+    <loc>https://allen-robert-portfolio-iuki.vercel.app/Blogs</loc>
+    <priority>0.7</priority>
+  </url>
+
+</urlset>
