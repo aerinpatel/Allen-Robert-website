@@ -162,17 +162,17 @@ import { HashLink } from "react-router-hash-link";
 // };
 
 const VideoCard = ({ title, views, time, vimeoId }) => {
-  const [isPlaying, setIsPlaying] = useState(true);
+  const [isPlaying, setIsPlaying] = useState(false);
 
   // Background mode: Autoplay, Muted, Loop, No controls
   const previewUrl = `https://player.vimeo.com/video/${vimeoId}?background=1&autoplay=1&loop=1&byline=0&title=0`;
-  // Active mode: Autoplay (unmuted), Controls enabled
-  const activeUrl = `https://player.vimeo.com/video/${vimeoId}?autoplay=1&title=0&byline=0&portrait=0`;
+  // Active mode: Autoplay (unmuted), Controls enabled, No badge/portrait/byline
+  const activeUrl = `https://player.vimeo.com/video/${vimeoId}?autoplay=1&muted=0&title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479`;
 
   return (
     <div
       className="w-72 h-96 flex-shrink-0 rounded-xl overflow-hidden shadow-xl 
-                 bg-black relative group scroll-snap-align-start cursor-pointer border border-white/10"
+                  bg-black relative group scroll-snap-align-start cursor-pointer border border-white/10"
       onClick={() => setIsPlaying(true)}
     >
       {/* Video Wrapper:
@@ -203,8 +203,8 @@ const VideoCard = ({ title, views, time, vimeoId }) => {
           {/* Text Overlay */}
           <div
             className="absolute bottom-0 left-0 right-0 p-4 pt-12 pb-14 
-                       bg-gradient-to-t from-black/90 via-black/50 to-transparent 
-                       text-white pointer-events-none transition-opacity duration-300 z-20"
+                        bg-gradient-to-t from-black/90 via-black/50 to-transparent 
+                        text-white pointer-events-none transition-opacity duration-300 z-20"
           >
             <h3 className="font-semibold text-xl leading-tight mb-1 drop-shadow-md">
               {title}
@@ -223,9 +223,9 @@ const VideoCard = ({ title, views, time, vimeoId }) => {
           
           {/* Hover Play Icon */}
           <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none z-10">
-             <div className="bg-white/20 backdrop-blur-sm p-4 rounded-full">
-                <Play className="w-8 h-8 text-white fill-white" />
-             </div>
+              <div className="bg-white/20 backdrop-blur-sm p-4 rounded-full">
+                 <Play className="w-8 h-8 text-white fill-white" />
+              </div>
           </div>
         </>
       )}
@@ -277,7 +277,7 @@ const FeaturedVideos = () => {
     {
       title: "Against All Odds – My Journey",
       time: "2:31",
-      vimeoId: "1146380926",
+      vimeoId: "1146647727",
     },
     {
       title: "The Silence Behind the Stage",
@@ -292,7 +292,7 @@ const FeaturedVideos = () => {
     {
       title: "The Million-Pound Life I Never Lived",
       time: "2:56",
-      vimeoId: "1146381016",
+      vimeoId: "1146647152",
     },
   ];
 
