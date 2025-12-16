@@ -210,7 +210,7 @@ const App = () => {
         {/* Canonical URL */}
         <link
           rel="canonical"
-          href="https://allen-robert-portfolio-iuki.vercel.app/Journey"
+          href="https://allanlroberts.com/journey"
         />
 
         {/* Title */}
@@ -230,11 +230,11 @@ const App = () => {
         />
         <meta
           property="og:image"
-          content="https://allen-robert-portfolio-iuki.vercel.app/og-image.jpg"
+          content="https://allanlroberts.com/og-image.jpg"
         />
         <meta
           property="og:url"
-          content="https://allen-robert-portfolio-iuki.vercel.app/Journey"
+          content="https://allanlroberts.com/journey"
         />
         <meta property="og:type" content="website" />
 
@@ -247,7 +247,7 @@ const App = () => {
         />
         <meta
           name="twitter:image"
-          content="https://allen-robert-portfolio-iuki.vercel.app/og-image.jpg"
+          content="https://allanlroberts.com/og-image.jpg"
         />
 
         <script type="application/ld+json">
@@ -260,13 +260,13 @@ const App = () => {
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://allen-robert-portfolio-iuki.vercel.app/"
+      "item": "https://allanlroberts.com/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Journey",
-      "item": "https://allen-robert-portfolio-iuki.vercel.app/Journey"
+      "item": "https://allanlroberts.com/journey"
     }
   ]
 }

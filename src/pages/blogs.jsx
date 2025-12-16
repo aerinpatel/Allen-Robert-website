@@ -306,7 +306,7 @@ const BlogsPage = () => {
     >
       <Helmet>
         {/* Canonical */}
-        <link rel="canonical" href="https://allen-robert-portfolio-iuki.vercel.app/blogs" />
+        <link rel="canonical" href="https://allanlroberts.com/blogs" />
 
         {/* Title */}
         <title>Blogs | Allan Roberts</title>
@@ -320,15 +320,15 @@ const BlogsPage = () => {
         {/* Open Graph */}
         <meta property="og:title" content="Blogs | Allan Roberts" />
         <meta property="og:description" content="Explore inspiring articles by Allan Roberts, covering mindset, life experiences, and motivation." />
-        <meta property="og:image" content="https://allen-robert-portfolio-iuki.vercel.app/allan-roberts-portrait.png" />
-        <meta property="og:url" content="https://allen-robert-portfolio-iuki.vercel.app/Blogs" />
+        <meta property="og:image" content="https://allanlroberts.com/allan-roberts-portrait.png" />
+        <meta property="og:url" content="https://allanlroberts.com/blogs" />
         <meta property="og:type" content="article" />
 
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Blogs | Allan Roberts" />
         <meta name="twitter:description" content="Explore inspiring blog posts and motivational insights by Allan Roberts." />
-        <meta name="twitter:image" content="https://allen-robert-portfolio-iuki.vercel.app/allan-roberts-portrait.png" />
+        <meta name="twitter:image" content="https://allanlroberts.com/allan-roberts-portrait.png" />
 
         <script type="application/ld+json">
 {`
@@ -340,13 +340,13 @@ const BlogsPage = () => {
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://allen-robert-portfolio-iuki.vercel.app/"
+      "item": "https://allanlroberts.com/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Blogs",
-      "item": "https://allen-robert-portfolio-iuki.vercel.app/Blogs"
+      "item": "https://allanlroberts.com/blogs"
     }
   ]
 }
