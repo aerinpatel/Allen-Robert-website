@@ -76,7 +76,7 @@ const StoryVideoPlayer = () => {
 
   // Added controls=0 and iv_load_policy=3 (hides annotations)
   const previewUrl = `https://www.youtube.com/embed/${youtubeId}?autoplay=1&mute=1&controls=0&loop=1&playlist=${youtubeId}&modestbranding=1&rel=0&iv_load_policy=3`;
-  const activeUrl = `https://www.youtube.com/embed/${youtubeId}?autoplay=1&mute=0&controls=0&rel=0&iv_load_policy=3`;
+  const activeUrl = `https://www.youtube.com/embed/${youtubeId}?autoplay=1&mute=0&controls=1&rel=0&iv_load_policy=3`;
 
   return (
     <div 
