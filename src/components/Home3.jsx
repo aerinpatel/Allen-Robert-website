@@ -9,7 +9,7 @@ const VideoCard = ({ title, views, time, youtubeId }) => {
   const previewUrl = `https://www.youtube.com/embed/${youtubeId}?autoplay=1&mute=1&controls=0&loop=1&playlist=${youtubeId}&showinfo=0&modestbranding=1&rel=0&iv_load_policy=3`;
   
   // Added controls=0 to hide bottom bar in active mode as well
-  const activeUrl = `https://www.youtube.com/embed/${youtubeId}?autoplay=1&mute=0&controls=0&rel=0&iv_load_policy=3`;
+  const activeUrl = `https://www.youtube.com/embed/${youtubeId}?autoplay=1&mute=0&controls=1&rel=0&iv_load_policy=3`;
 
   return (
     <div
