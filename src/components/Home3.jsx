@@ -90,7 +90,7 @@ const StoryVideoPlayer = () => {
       <div className="absolute inset-0 w-full h-full overflow-hidden">
         <iframe
           src={isPlaying ? activeUrl : previewUrl}
-          className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[105%] h-[115%] object-cover"
+          className="absolute w-full h-full top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 object-cover"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
