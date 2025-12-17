@@ -134,11 +134,6 @@ const FeaturedVideos = () => {
       time: "2:56", // Placeholder or you can add specific duration if known
       youtubeId: "NOFJE556WIk",
     },
-    {
-      title: "From The Other Side of Stupid",
-      time: "7:33",
-      youtubeId: "gk7_MOAD5v4",
-    },
     
   ];
 
